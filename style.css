@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600&display=swap');
+
+* {
+	box-sizing: border-box;
+}
+html {
+	font-size: 62.5%;
+	scroll-behavior: smooth;
+}
+
+@media only screen and (max-width: 575px){
+    html{
+        font-size: 50%;
+    }
+}
+body {
+	background-image: url('./bg.svg');
+	background-color: #23226b;
+	background-size: cover;
+	background-position: center center;
+	display: flex;
+	/* align-items: center; */
+	justify-content: center;
+	min-height: 100vh;
+	font-family: 'Poppins', sans-serif;
+	margin: 0;
+    color: #f3f3f3;
+    text-shadow: 3px 3px 20px #23226b;
+    position: relative;
+    overflow: hidden;
+}
+
+h2.next-year{
+    font-size: 20rem;
+    line-height: 0;
+    font-weight: 500;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    opacity: 0.2;
+}
+
+.row {
+	width: 90%;
+	max-width: 114rem;
+	margin: 0 auto;
+}
+h1 {
+	font-weight: 500;
+	font-size: 6rem;
+	text-align: center;
+    margin-bottom: 5rem;
+    margin-top: 20rem;
+}
+
+.countdown-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+    margin-top: -5rem;
+}
+
+.big-text {
+	font-weight: 400;
+	font-size: 6rem;
+	line-height: 1;
+	margin: 1rem 2rem;
+}
+
+.countdown-el {
+	text-align: center;
+}
+
+.countdown-el span {
+	font-size: 1.6rem;
+    font-weight: 500;
+}
